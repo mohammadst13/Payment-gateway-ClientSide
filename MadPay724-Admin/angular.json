@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "d05e3f4f-48ad-4e90-8398-b996e2d9eef6"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -28,9 +31,30 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/fonts/feather/style.min.css",
+              "src/assets/fonts/simple-line-icons/style.css",
+              "src/assets/fonts/font-awesome/css/font-awesome.min.css",
+              "src/assets/vendors/css/perfect-scrollbar.min.css",
+              "src/assets/vendors/css/prism.min.css",
+              "src/assets/vendors/css/chartist.min.css",
+              "src/assets/css/app.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendors/js/core/jquery-3.3.1.min.js",
+              "src/assets/vendors/js/core/popper.min.js",
+              "src/assets/vendors/js/core/bootstrap.min.js",
+              "src/assets/vendors/js/perfect-scrollbar.jquery.min.js",
+              "src/assets/vendors/js/prism.min.js",
+              "src/assets/vendors/js/jquery.matchHeight-min.js",
+              "src/assets/vendors/js/screenfull.min.js",
+              "src/assets/vendors/js/pace/pace.min.js",
+              "src/assets/vendors/js/chartist.min.js",
+              "src/assets/js/app-sidebar.js",
+              "src/assets/js/notification-sidebar.js",
+              "src/assets/js/customizer.js",
+              "src/assets/js/dashboard-ecommerce.js"
+            ]
           },
           "configurations": {
             "production": {
